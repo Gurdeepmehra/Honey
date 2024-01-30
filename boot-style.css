@@ -1,0 +1,374 @@
+*{
+    margin:0;
+    padding:0;
+}
+.top-bar-list {
+    margin:0;
+}
+.top-bar-list li{
+    padding: 0px 10px 0px 0px;
+}
+.top-bar-list svg{
+    width:17px;
+    fill:#fff;
+    height:17px;
+}
+.nav-item {
+    margin-right: 18px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#000;
+}
+.dropdown-menu.show {
+    display: block;
+    background-color:#ffb11f;
+}
+.btn-banner{
+    padding:13px 49px;
+    background-color:#ffb11f;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.dropdown-item {
+    color: #fff;
+    /* border-color: #fff; */
+
+}
+.top-btn{
+    padding: 13px 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.banner-image{
+    background-image: url("https://labartisan.net/demo/chashi/assets/images/banner/02.jpg");
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+
+}
+.content {
+    padding: 200px 0px;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    z-index: 1 !important;
+    position: relative;
+}
+.content h1 {
+    font-size:72px;
+}
+.content p {
+    font-size: 18px;
+}
+.overlay-cotnet {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.abs-product {
+    background-color: #fff;
+    margin-top: -70px;
+    position: relative;
+    box-shadow: 0 3px 3px rgba(239, 244, 255, 0.67);
+}
+.abs-inner{
+    padding:30px 15px;
+}
+.thmub-grid {
+    padding: 30px 15px;
+    background: #f8fafe;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.sale-product {
+    background-color: #f8fafe;
+    position: relative;
+
+}
+.shape-1 {
+    position: absolute;
+    right: 71px;
+    top: 50px;
+}
+.shape-2 {
+    position: absolute;
+    content: "";
+    bottom: 20px;
+    left: 0;
+}
+.sale-box {
+    box-shadow: 0 0 6px rgba(8, 136, 136, 0.08);
+}
+.sale-img img {
+    width: 100%;
+}
+.cart-option .top-btn {
+    padding: 9px 13px;
+}
+.sale-content {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.star {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.gallery-img{
+    width:100%;
+}
+.star li {
+    color:#ffb11f;
+    font-size:25px;
+}
+.images{
+    position: relative;
+}
+.gallery-img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.gallery-content{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+}
+.images:hover .gallery-img {
+   
+    opacity: 0.3;
+  }
+  .text {
+    color: white;
+    font-size: 18px;
+  }
+  .images:hover .gallery-content {
+    opacity: 1;
+    
+  }
+  .countdown{
+    background-image: url("http://labartisan.net/demo/chashi/assets/images/bg-images/bg-countdown.jpg");
+    height:100%;
+    position: relative;
+  }
+  .count-img {
+    position: absolute;
+    top: -95px;
+    right: 0;
+}
+.count-img-2 {
+    position: absolute;
+    bottom: -95px;
+    left: 0;
+}
+
+.countdown{
+    color:#fff;
+}
+.count-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.count-dowwn-number{
+    list-style: none;
+}
+.count-dowwn-number li{
+background-color: #fff;
+}
+.count-dowwn-number h3{
+    color:#ffb11f;
+    font-weight: bold;
+}
+.count-dowwn-number p{
+    color:#000;
+    font-weight: bold;
+}
+.count-dowwn-number li {
+    background-color: #fff;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    /* vertical-align: middle; */
+    padding: 10px;
+    border-radius: 9px;
+}
+button.btn.btn-primary.count-btn {
+    background-color: #fff;
+    color: #ffb11f;
+    border: 0;
+    padding: 10px 40px;
+    font-weight: bold;
+}
+.blog-content{
+    background-color: #f8fafe;
+}
+.blog-box {
+    box-shadow: 0 0 10px rgba(136, 136, 136, 0.2);
+}
+.btn.btn-primary:focus{
+    box-shadow: none;
+}
+.btn.btn-primary.log-btn {
+    background-color: #fff;
+    color: #ffb11f;
+    border: 0;
+    padding: 10px 25px;
+    font-weight: bold;
+    border:1px solid #ffb11f;
+    
+}
+.footer{
+    background-image: url("https://labartisan.net/demo/chashi/assets/css/bg-image/footer-top-bg.png");
+    background-size: cover;
+    height:100%;
+    background-repeat: no-repeat;
+    position: relative;
+    color:#fff;
+    
+    
+}
+.footer svg{
+    fill:#ffb11f;
+}
+.footer-menus ul{
+    gap:6px;
+}
+.footer-menus ul li{
+    flex: 0 0 32%;
+}
+
+.footer .overlay-cotnets{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0  0 0 / 77%);
+}
+.footer-menus ul{
+    list-style: none;
+}
+.footer-icon.footer-img {
+    width: 80px;
+}
+.footer-icon.footer-img img {
+    width: 100%;
+}
+.footer-icon img{
+    width: 100%;
+}
+.btn:hover{
+    background-color: #000;
+    color:#fff;
+    border:0;
+
+}
+/* contact-page */
+
+.banner-image-contact{
+  position: relative;
+    background-image: url("https://labartisan.net/demo/chashi/assets/images/bg-images/page-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.contact-banner{
+    padding:100px 0px;
+}
+.info {
+    width: 100%;
+    padding: 36px 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 5px rgba(136, 136, 136, 0.05);
+    font-size: 18px;
+    gap: 10px;
+}
+.location{
+    background-color: #1685ef;
+   
+}
+.call {
+background-color: #ffb11f;
+}
+.mail{
+background-color: #5ce1b9;
+;
+}
+.icons {
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+    border-radius: 50%;
+}
+.icons svg{
+    fill: #fff;
+    width:40px;
+    height:40px;
+}
+
+@media screen and (min-width:992px) {
+    .abs-img {
+        width: 80px;
+    }
+    .abs-content {
+        width: calc(100% - 80px);
+    }
+ 
+}
+@media screen and (min-width:768px) {
+    .abs-border::after {
+        position: absolute;
+        z-index: 1;
+        width: 1px;
+        width: 2px;
+        height: 70%;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background: #ffb11f;
+        content: "";
+    }
+}
+@media screen and (max-width:991px) {
+
+.abs-inner {
+    display: block !important;
+    text-align: center;
+}
+.floewer-img{
+    width:100%;
+}
+.mobile-counter{
+    flex-direction: column-reverse;
+}
+}
+
+@media screen and (max-width:767px) {
+
+    .content h1{
+        font-size:38px;
+    }
+    .count-dowwn-number{
+        flex-wrap: wrap;
+    }
+}
